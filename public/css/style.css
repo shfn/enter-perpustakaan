@@ -1,0 +1,44 @@
+.main {
+  height: 100vh;
+}
+
+.sidebar {
+  background: grey;
+  color: #fff;
+}
+
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 20px 10px;
+}
+
+.sidebar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #000;
+  border-right: solid 5px tomato;
+}
+
+.card-data {
+  border: solid;
+  padding: 20px 50px;
+  background-color: #009EFF;
+  color: #fff;
+
+}
+
+.card-data i {
+  font-size: 80px;
+}
+
+.card-desc {
+  font-size: 30px;
+}
+
+.card-count {
+  font-size: 30px;
+}
